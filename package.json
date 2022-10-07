@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-stack",
+  "version": "1.0.0",
+  "description": "backend node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "keywords": [
+    "fullstack",
+    "node",
+    "js",
+    "hoidanit"
+  ],
+  "author": "phongnt",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.24.0",
+    "sequelize-cli": "^6.5.1"
+  }
+}
